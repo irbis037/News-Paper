@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+.navbar-brand img {
+    max-width: 30px;
+}
+.brand{
+    font-family: 'Bebas Neue', cursive;
+    font-size: calc(1em + 5vw);
+    margin-right: 0px;
+}
+
+.inputSerch{
+    margin-right: 20px;
+}

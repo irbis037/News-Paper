@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+<app-main></app-main>
+
+<div class="container"> 
+    <div class="row">
+        <div class="col-12 col-md-8">
+            
+            <h1>{{_data.noticias[idArticulo].title}}</h1>
+            <img src="{{_data.noticias[idArticulo].urlToImage}}" >
+            <p>{{_data.noticias[idArticulo].description}} </p>
+
+        </div>
+        
+
+    </div>
+
+</div>
+<div>
+    <a href="{{_data.noticias[idArticulo].url}}"><button class="btn btn-dark">Read More</button></a>
+
+</div>

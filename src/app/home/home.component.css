@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Fahkwang|Lexend+Zetta|Sawarabi+Gothic|Thasadith&display=swap');
+
+.imagenLista{
+    max-width: 100%;
+    max-height: 100%;
+}
+.titulo{
+    font-size: 50px;
+    font-family: 'Fahkwang', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-title{
+    font-family: 'Sawarabi Gothic', sans-serif;
+
+}
+.card-text{
+    font-family: 'Thasadith', sans-serif;
+}

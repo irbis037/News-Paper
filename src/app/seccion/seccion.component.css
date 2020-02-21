@@ -1,0 +1,25 @@
+.container{
+    max-width: 800px;
+    max-height: 5000px;
+}
+.scroll-container{
+    
+    display: block;
+    width: 700px;
+    max-height : 450px;
+    min-height: auto;
+    scroll-behavior: smooth;
+    overflow: auto;
+    margin-bottom: 10px;
+    
+}
+.scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  .titleHeader {
+    text-align: right;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+  }

@@ -1,0 +1,20 @@
+<div class=" titleHeader col-4">
+  <h2>Tecnologias</h2>
+</div>
+
+
+<div class="container scroll-container">
+<div class="row">
+    <div class="col-12 col-md-12 " *ngFor = " let noticia of _data.techNews; let i = index ">
+      <div class="card">
+       <img src="{{noticia.urlToImage}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{noticia.title}} </h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a href="{{noticia.url}}"><button>mas...</button></a> 
+
+        </div>
+      </div>
+    </div>
+</div>
+</div>

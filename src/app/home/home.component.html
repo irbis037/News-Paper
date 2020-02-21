@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+<app-main></app-main>
+<div>
+
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12">
+        <h1 class="titulo">Titulares</h1>
+  
+      </div>
+      
+        <div class="col-12 col-md-4" *ngFor = " let noticia of _data.noticias; let i = index ">
+            
+                <div class = "card" >
+                  <img src = "{{noticia.urlToImage}}" class="imagenLista">
+                  <div class = "card-body">
+                    <h5 class = "card-title">{{noticia.title}}</h5>
+                    <p class = "card-text">{{noticia.description}} </p>
+                    <p class = "card-text"><small class="text-muted">{{noticia.author}}</small></p>
+                  </div>
+                  <button routerLink = "/articulo/{{i}}">
+                    Go! 
+                  </button>
+                </div>
+
+              
+            
+           
+
+        </div>
+        <div class="col-12 col-md-12">
+          <app-seccion></app-seccion>
+
+        </div>
+
+    </div>
+
+</div>
+<app-footer></app-footer>
+<div>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+  ScrollReveal().reveal('.titulo', { delay: 500 });
+</script>
+</div>
+
+
+
